@@ -1,0 +1,198 @@
+/* 🌈 Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* 🌟 Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #fbf8ff;
+    color: #333;
+}
+
+/* ✨ Header */
+header {
+    text-align: center;
+    padding: 20px 10px;
+}
+.logo {
+    font-size: 4rem;
+    color: #5e17eb;
+}
+header h1 {
+    color: #5e17eb;
+    margin-top: 10px;
+}
+
+/* 🧭 Navigation Bar */
+.navigation-ui-element {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding: 15px;
+    background: #ece2ff;
+    border-radius: 45px;
+    width: fit-content;
+    margin: 20px auto;
+    border: 2px solid #5e17eb;
+}
+.navigation-ui-element li { list-style: none; }
+.navigation-ui-element a {
+    color: #5e17eb;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 2px solid #5e17eb;
+    transition: 0.2s;
+}
+.navigation-ui-element a:hover {
+    background: #5e17eb;
+    color: white;
+}
+
+/* 👨‍💻 About Section */
+#about {
+    text-align: center;
+    padding: 30px 20px;
+}
+#about p {
+    width: 65%;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    border: 2px solid #333;
+    font-size: 1.05rem;
+}
+.icons i {
+    font-size: 4rem;
+    margin: 10px;
+}
+.prime-icon { color: #a100ff; }
+.prompt-icon { color: #0055ff; }
+
+/* 🛠 Services */
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 10px;
+}
+.service {
+    width: 240px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #5e17eb;
+    background: #f5ecff;
+    transition: 0.2s;
+}
+.service:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 12px rgba(94, 23, 235, 0.25);
+}
+.service h3 {
+    color: #5e17eb;
+}
+
+/* 🚀 Try Button */
+.try-box { text-align: center; margin: 40px 0; }
+.try-btn {
+    background: #5e17eb;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 3px solid #5e17eb;
+    transition: 0.25s;
+}
+.try-btn:hover {
+    background: white;
+    color: #5e17eb;
+    transform: scale(1.1);
+}
+
+a { text-align: center; margin: 40px 0; }
+a {
+    background: #5e17eb;
+    color: white;
+    padding: 4px 15px;
+    border-radius: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 3px solid #5e17eb;
+    transition: 0.25s;
+}
+a:hover {
+    background: white;
+    color: #5e17eb;
+    transform: scale(1.1);
+}
+
+/* 📬 Contact Section */
+#contact {
+    padding: 30px 10px;
+    text-align: center;
+}
+.contact-box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 300px;
+}
+input, textarea {
+    padding: 10px;
+    border: 2px solid #5e17eb;
+    border-radius: 8px;
+    outline: none;
+}
+button {
+    background: #5e17eb;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover {
+    background: white;
+    color: #5e17eb;
+    border: 2px solid #5e17eb;
+}
+.contact-info {
+    text-align: left;
+    font-size: 1.05rem;
+}
+.contact-info i {
+    color: #5e17eb;
+    margin-right: 6px;
+}
+
+/* 👣 Footer */
+footer {
+    text-align: center;
+    background: #ece2ff;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 2px solid #5e17eb;
+    color: #5e17eb;
+}
+
+/* 📱 Responsive */
+@media (max-width: 700px) {
+    #about p { width: 85%; }
+    .navigation-ui-element {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+}
